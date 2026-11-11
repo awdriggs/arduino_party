@@ -26,7 +26,7 @@ const serverState = {
   servoAngle: 90
 };
 
-//helpter function for brodcasting data to clients
+//helper function for brodcasting data to clients
 function broadcast(data) {
   const message = JSON.stringify(data);
   clients.forEach(client => {

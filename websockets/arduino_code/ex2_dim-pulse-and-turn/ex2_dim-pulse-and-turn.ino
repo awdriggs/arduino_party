@@ -118,8 +118,6 @@ void loop() {
       }
     }
 
-
-
     lastButtonState = currentButtonState; //for the next loop to check
 
     // Handle green LED flashing based on flashInterval
